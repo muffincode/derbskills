@@ -41,7 +41,7 @@
       </div>
 
       <details v-if="!state">
-        <summary>💡 Hint</summary>
+        <summary>💡 Indice</summary>
         {{ question.hint }}
       </details>
       <template v-else>
@@ -59,7 +59,7 @@
         </div>
         <p class="italic">{{ question.explanation }}</p>
         <button class="btn btn-outline btn-info" @click="next">
-          Next question
+          Question suivante
         </button>
       </template>
     </div>

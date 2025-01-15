@@ -1,6 +1,6 @@
 <template>
-  <section class="h-[100vh] max-w-full flex flex-col gap-10 justify-center items-center m-8">
-    <div class="flex flex-col gap-1">
+  <section class="h-[100vh] max-w-full flex flex-col gap-10 justify-center items-center mx-8">
+    <div class="flex flex-col gap-1 self-start">
       <h1 class="text-lg text-primary">Quiz de 15 questions</h1>
       <small>score: {{ score }}/15</small>
     </div>
