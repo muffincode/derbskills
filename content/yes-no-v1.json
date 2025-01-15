@@ -1,0 +1,93 @@
+[
+    {
+     "label": "Un match standard de roller derby se compose-t-il de trois périodes de 20 minutes ?",
+      "answer": "Non",
+      "hint": "Réfléchissez à la structure typique des matchs sportifs.",
+      "explanation": "Un match standard de roller derby se compose de deux périodes de 30 minutes."
+    },
+    {
+     "label": "Les patins en ligne sont-ils autorisés en roller derby sur piste plate ?",
+      "answer": "Non",
+      "hint": "Pensez à l'équipement traditionnel utilisé au roller derby.",
+      "explanation": "Seuls les patins à roulettes de type quad sont autorisés ; les patins en ligne ne le sont pas."
+    },
+    {
+     "label": "Un Jam peut-il durer plus de deux minutes ?",
+      "answer": "Non",
+      "hint": "Réfléchissez à la durée maximale d'un Jam.",
+      "explanation": "Un Jam peut durer jusqu'à deux minutes, mais pas plus."
+    },
+    {
+     "label": "Le statut de Lead Jammer est-il permanent pour tout le Jam une fois déclaré ?",
+      "answer": "Oui",
+      "hint": "Réfléchissez aux événements pouvant modifier le statut de Lead Jammer.",
+      "explanation": "Une fois déclaré, le Lead Jammer conserve ce statut sauf s'il commet une faute."
+    },
+    {
+     "label": "Les temps morts d'équipe sont-ils limités à deux par match ?",
+      "answer": "Non",
+      "hint": "Pensez au nombre de temps morts généralement autorisés.",
+      "explanation": "Chaque équipe a droit à trois temps morts par match."
+    },
+    {
+     "label": "Une équipe peut-elle avoir plus d'un capitaine sur la piste en même temps ?",
+      "answer": "Non",
+      "hint": "Réfléchissez à la structure de leadership pendant le jeu.",
+      "explanation": "Chaque équipe peut avoir un capitaine et un suppléant, mais un seul est désigné comme capitaine."
+    },
+    {
+     "label": "Est-il légal de bloquer un adversaire avec l'avant-bras ?",
+      "answer": "Non",
+      "hint": "Réfléchissez aux zones de contact légales au roller derby.",
+      "explanation": "Utiliser l'avant-bras pour bloquer est illégal ; seules certaines parties du corps sont autorisées pour le blocage."
+    },
+    {
+     "label": "Un Jammer peut-il marquer des points lors de son premier passage dans le Pack ?",
+      "answer": "Non",
+      "hint": "Pensez au moment où les opportunités de marquer commencent pour le Jammer.",
+      "explanation": "Les Jammers commencent à marquer lors de leur deuxième passage dans le Pack, après avoir terminé leur premier passage."
+    },
+    {
+     "label": "Le Pivot est-il autorisé à devenir Jammer pendant un Jam ?",
+      "answer": "Oui",
+      "hint": "Réfléchissez à la flexibilité des rôles pendant un Jam.",
+      "explanation": "Le Pivot peut devenir Jammer grâce à un processus appelé \"Star Pass\"."
+    },
+    {
+     "label": "Les pénalités sont-elles purgées pendant 60 secondes au banc des pénalités ?",
+      "answer": "Non",
+      "hint": "Réfléchissez à la durée standard des pénalités.",
+      "explanation": "Les pénalités sont généralement purgées pendant 30 secondes au banc des pénalités."
+    },
+    {
+     "label": "Une équipe peut-elle jouer sans Jammer sur la piste ?",
+      "answer": "Oui",
+      "hint": "Pensez aux situations impliquant des pénalités ou des choix stratégiques.",
+      "explanation": "Une équipe peut être sans Jammer si celui-ci purge une pénalité, ce qui entraîne un \"Power Jam\" pour l'équipe adverse."
+    },
+    {
+     "label": "Est-il obligatoire pour tous les Blockers de porter une coiffe de casque ?",
+      "answer": "Non",
+      "hint": "Réfléchissez aux joueurs qui doivent porter des coiffes spécifiques.",
+      "explanation": "Seuls le Jammer et le Pivot doivent porter des coiffes spécifiques ; les Blockers n'en portent pas."
+    },
+    {
+     "label": "Un Jam peut-il être arrêté avant les deux minutes ?",
+      "answer": "Oui",
+      "hint": "Réfléchissez à qui a le pouvoir de mettre fin à un Jam prématurément.",
+      "explanation": "Le Lead Jammer peut arrêter un Jam avant la durée de deux minutes."
+    },
+    {
+     "label": "Est-il permis d'initier un contact avec le dos d'un adversaire ?",
+      "answer": "Non",
+      "hint": "Réfléchissez aux zones cibles légales pour le blocage.",
+      "explanation": "Entrer en contact avec le dos d'un adversaire est illégal au roller derby."
+    },
+    {
+     "label": "Les demandes de révision officielle sont-elles limitées à une par équipe et par match ?",
+      "answer": "Non",
+      "hint": "Réfléchissez à la fréquence des demandes de révision officielle.",
+      "explanation": "Chaque équipe dispose d'une révision officielle par période, et non par match."
+    }
+  ]
+  

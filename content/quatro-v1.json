@@ -1,0 +1,137 @@
+[
+  {
+   "label": "Combien de périodes y a-t-il dans un match standard de roller derby ?",
+    "possibleAnswers": ["Une", "Deux", "Trois", "Quatre"],
+    "answer": "Deux",
+    "hint": "Pensez à la structure typique des jeux sportifs.",
+    "explanation": "Un match de roller derby se compose de deux périodes de 30 minutes."
+  },
+  {
+   "label": "Quelle est la durée maximale d'un Jam ?",
+    "possibleAnswers": ["1 minute", "2 minutes", "3 minutes", "Pas de limite"],
+    "answer": "2 minutes",
+    "hint": "Rappelez-vous de la limite de temps imposée à un seul Jam.",
+    "explanation": "Un Jam dure jusqu'à 2 minutes mais pas plus."
+  },
+  {
+   "label": "Quel type de patins est autorisé en roller derby ?",
+    "possibleAnswers": [
+      "Patins en ligne",
+      "Patins à roulettes (quads)",
+      "Les deux",
+      "Rollerblades"
+    ],
+    "answer": "Patins à roulettes (quads)",
+    "hint": "Considérez l'équipement traditionnel utilisé dans ce sport.",
+    "explanation": "Seuls les patins à roulettes (quads) sont autorisés en roller derby."
+  },
+  {
+   "label": "Combien de temps morts chaque équipe est-elle autorisée par match ?",
+    "possibleAnswers": ["Un", "Deux", "Trois", "Quatre"],
+    "answer": "Trois",
+    "hint": "Pensez à la fréquence à laquelle les équipes peuvent arrêter le jeu.",
+    "explanation": "Chaque équipe dispose de trois temps morts par match."
+  },
+  {
+   "label": "Quel est le rôle principal du Pivot ?",
+    "possibleAnswers": [
+      "Marquer des points",
+      "Bloquer les adversaires",
+      "Diriger le Pack et recevoir une Star Pass",
+      "Servir des pénalités"
+    ],
+    "answer": "Diriger le Pack et recevoir une Star Pass",
+    "hint": "Réfléchissez au rôle unique du joueur Pivot.",
+    "explanation": "Le Pivot peut diriger le Pack et recevoir le couvre-casque du Jammer pour devenir le Jammer."
+  },
+  {
+   "label": "Combien de points le Jammer marque-t-il lors de son premier passage ?",
+    "possibleAnswers": ["0", "1", "4", "5"],
+    "answer": "0",
+    "hint": "Rappelez-vous quand les opportunités de marquer commencent.",
+    "explanation": "Aucun point n'est marqué lors du premier passage ; les points commencent au deuxième passage."
+  },
+  {
+   "label": "Quelle est la durée de la pénalité dans la Penalty Box ?",
+    "possibleAnswers": [
+      "20 secondes",
+      "30 secondes",
+      "45 secondes",
+      "60 secondes"
+    ],
+    "answer": "30 secondes",
+    "hint": "Pensez à la durée des pénalités habituellement appliquées.",
+    "explanation": "Les pénalités durent 30 secondes dans la Penalty Box."
+  },
+  {
+   "label": "Quelle partie du corps est illégale pour bloquer ?",
+    "possibleAnswers": ["Hanche", "Épaule", "Avant-bras", "Poitrine"],
+    "answer": "Avant-bras",
+    "hint": "Réfléchissez aux zones de contact légales et illégales.",
+    "explanation": "Utiliser l'avant-bras pour bloquer est illégal en roller derby."
+  },
+  {
+   "label": "Qui peut mettre fin à un Jam ?",
+    "possibleAnswers": ["Jammer", "Pivot", "Bloqueur", "Capitaine"],
+    "answer": "Jammer",
+    "hint": "Pensez à qui a le pouvoir d'arrêter un Jam.",
+    "explanation": "Seul le Jammer Principal peut mettre fin à un Jam avant sa durée maximale."
+  },
+  {
+   "label": "Combien de bloqueurs sont sur la piste par équipe ?",
+    "possibleAnswers": ["Deux", "Trois", "Quatre", "Cinq"],
+    "answer": "Quatre",
+    "hint": "Rappelez-vous de l'alignement standard pendant le jeu.",
+    "explanation": "Chaque équipe a quatre bloqueurs sur la piste."
+  },
+  {
+   "label": "Que se passe-t-il quand le Jammer commet une pénalité ?",
+    "possibleAnswers": [
+      "Le Jam continue normalement",
+      "Un nouveau Jam commence",
+      "Le Jammer va dans la Penalty Box",
+      "Le Jam se termine immédiatement"
+    ],
+    "answer": "Le Jammer va dans la Penalty Box",
+    "hint": "Pensez aux règles et conséquences des pénalités.",
+    "explanation": "Le Jammer sert 30 secondes dans la Penalty Box pour une pénalité."
+  },
+  {
+   "label": "Comment un Pivot peut-il devenir Jammer ?",
+    "possibleAnswers": [
+      "Marquer des points",
+      "Mettre fin au Jam",
+      "Passer le couvre-casque",
+      "Bloquer le Jammer Principal"
+    ],
+    "answer": "Passer le couvre-casque",
+    "hint": "Réfléchissez à la règle spéciale impliquant les couvre-casques.",
+    "explanation": "Un Pivot devient Jammer via une \"Star Pass\", où le Jammer lui transmet son couvre-casque."
+  },
+  {
+   "label": "Quel est le terme pour une équipe sans Jammer sur la piste ?",
+    "possibleAnswers": ["Star Jam", "Power Jam", "Empty Jam", "Lead Jam"],
+    "answer": "Power Jam",
+    "hint": "Réfléchissez à la situation où une équipe n'a pas de Jammer.",
+    "explanation": "Un \"Power Jam\" se produit lorsqu'une équipe n'a pas de Jammer sur la piste."
+  },
+  {
+   "label": "Combien de joueurs sont généralement sur la piste par équipe pendant un Jam ?",
+    "possibleAnswers": ["Trois", "Quatre", "Cinq", "Six"],
+    "answer": "Cinq",
+    "hint": "Pensez à l'alignement complet, incluant le Jammer et les Bloqueurs.",
+    "explanation": "Chaque équipe aligne un Jammer et quatre Bloqueurs, soit un total de cinq joueurs."
+  },
+  {
+   "label": "Quelle est la pénalité pour bloquer le dos d'un adversaire ?",
+    "possibleAnswers": [
+      "Pas de pénalité",
+      "10 secondes de pénalité",
+      "30 secondes de pénalité",
+      "Expulsion immédiate"
+    ],
+    "answer": "30 secondes de pénalité",
+    "hint": "Rappelez-vous des règles sur les zones de contact illégales.",
+    "explanation": "Bloquer le dos d'un adversaire entraîne une pénalité de 30 secondes."
+  }
+]
