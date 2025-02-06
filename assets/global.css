@@ -1,0 +1,12 @@
+/* styles.css or inside a global CSS file */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+    @apply text-xl font-bold text-black;
+}
+
+h2 {
+  @apply text-sm font-bold text-gray-400 uppercase;
+}
