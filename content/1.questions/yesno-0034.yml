@@ -1,0 +1,12 @@
+answer: Non
+difficulty: '2'
+explanation: Non, le premier tour est le tour de qualification. Les points ne peuvent
+  être marqués qu'après avoir dépassé le Pack une première fois.
+hint: Pensez au tour initial et à sa fonction.
+label: Un Jammer peut-iel marquer des points lors de son premier tour ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Marquer des points
+aiGenerated: true

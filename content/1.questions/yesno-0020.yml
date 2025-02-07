@@ -1,0 +1,12 @@
+answer: Non
+difficulty: '2'
+explanation: Non, pousser un·e adversaire hors des limites de manière illégale entraîne
+  une faute de type 'Out of Bounds Block'.
+hint: Réfléchissez aux actions légales pour interagir avec un·e adversaire.
+label: Peut-on pousser un·e adversaire en dehors de la piste pour la pénaliser ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Pénalités
+aiGenerated: true

@@ -1,0 +1,12 @@
+answer: Non
+difficulty: '1'
+explanation: Non, bloquer un·e adversaire dans le dos est interdit car iel ne peut
+  pas anticiper le contact. Cela entraîne une faute de type 'Back Block'.
+hint: Imaginez où le contact est le plus sûr pour l'adversaire.
+label: Bloquer un·e adversaire dans le dos est-il légal ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Pénalités
+aiGenerated: true

@@ -1,0 +1,12 @@
+answer: Oui
+difficulty: '1'
+explanation: Oui, un match de roller derby est composé de deux périodes de 30 minutes
+  chacune.
+hint: Réfléchissez à la structure globale d'un match.
+label: Un match de roller derby se joue-t-il en deux périodes ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Durée des matchs
+aiGenerated: true

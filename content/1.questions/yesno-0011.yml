@@ -1,0 +1,13 @@
+answer: Non
+difficulty: '2'
+explanation: Non, rester en position illégale entraîne une faute de type 'Illegal
+  Position'. Vous devez être dans le Pack ou dans la zone d'engagement.
+hint: Pensez aux zones où vous devez rester pendant le jeu.
+label: Un·e joueur·euse peut-il·elle rester en position illégale sur la piste sans
+  être pénalisé·e ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Pénalités
+aiGenerated: true

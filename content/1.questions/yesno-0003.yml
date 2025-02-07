@@ -1,0 +1,13 @@
+answer: Non
+difficulty: '1'
+explanation: Non, les genouillères sont obligatoires car même les meilleur·es joueur·euses
+  tombent parfois. Elles protègent vos rotules et évitent les blessures graves lors
+  de chutes ou de collisions.
+hint: Pensez à ce qui protège vos articulations en cas de chute imprévue.
+label: Peut-on jouer sans genouillères si l’on ne tombe jamais ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Équipement
+aiGenerated: true

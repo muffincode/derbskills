@@ -1,0 +1,13 @@
+answer: Oui
+difficulty: '1'
+explanation: Le·la Pivot peut bloquer comme un·e bloqueur·euse classique.
+hint: Pensez aux multiples fonctions du·de la Pivot.
+label: Le·la Pivot peut-iel bloquer des adversaires ?
+possibleAnswers:
+- Oui
+- Non
+- Seulement s'iel devient Jammer
+- Seulement en début de Jam
+tags:
+- Rôles des joueur·euses
+aiGenerated: true

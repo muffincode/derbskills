@@ -1,0 +1,13 @@
+answer: Non
+difficulty: '1'
+explanation: Non, couper la piste pour dépasser un·e adversaire entraîne une faute
+  de type 'Cutting the Track'. Vous devez rester dans les limites pour que vos actions
+  soient valides.
+hint: Pensez aux limites de la piste et au fair-play.
+label: Couper la piste pour dépasser un·e adversaire est-il autorisé ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Pénalités
+aiGenerated: true

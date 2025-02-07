@@ -1,0 +1,12 @@
+answer: Oui
+difficulty: '1'
+explanation: Oui, utiliser les épaules pour bloquer est légal tant que le contact
+  est initié dans une zone d'impact légale et de manière contrôlée.
+hint: Pensez aux zones d'impact autorisées pour bloquer.
+label: Est-il légal d'utiliser les épaules pour bloquer un·e adversaire ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Pénalités
+aiGenerated: true

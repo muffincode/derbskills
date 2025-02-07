@@ -1,0 +1,13 @@
+answer: Non
+difficulty: '2'
+explanation: Non, bloquer hors du Pack est une faute de type 'Out of Play'. Vous devez
+  rester dans la zone d'engagement pour interagir avec un·e adversaire.
+hint: Réfléchissez aux limites de la zone de jeu.
+label: Un·e joueur·euse peut-il·elle continuer à bloquer un·e adversaire hors du Pack
+  ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Pénalités
+aiGenerated: true

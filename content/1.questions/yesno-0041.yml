@@ -1,0 +1,12 @@
+answer: Oui
+difficulty: '1'
+explanation: Oui, les arbitres ont le pouvoir d'arrêter un match à tout moment pour
+  des raisons de sécurité ou de blessure.
+hint: Pensez à leur rôle pour garantir un jeu sûr.
+label: Les arbitres peuvent-iels arrêter un match pour des raisons de sécurité ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Rôle des arbitres
+aiGenerated: true

@@ -24,3 +24,7 @@ logs
 !.env.example
 
 pnpm-lock.yaml
+yarn.lock
+
+# scripting for questions generation
+*.py

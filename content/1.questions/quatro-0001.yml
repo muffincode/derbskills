@@ -1,0 +1,15 @@
+answer: '5'
+difficulty: '1'
+explanation: Chaque équipe aligne 4 bloqueur·euses (dont un·e Pivot) et 1 Jammer,
+  soit 5 joueur·euses.
+hint: Pensez au rôle de chaque joueur·euse sur la piste.
+label: Combien de joueur·euses par équipe sont autorisé·es sur la piste pendant un
+  Jam ?
+possibleAnswers:
+- '3'
+- '5'
+- '7'
+- '4'
+tags:
+- Composition des équipes
+aiGenerated: true

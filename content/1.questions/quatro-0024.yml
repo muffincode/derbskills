@@ -1,0 +1,14 @@
+answer: Bloquer avec le bas du corps
+difficulty: '3'
+explanation: Low Block' est une faute causée par un contact illégal avec le bas du
+  corps, comme les jambes.
+hint: Pensez aux contacts bas dangereux.
+label: Quelle action est considérée comme une faute de 'Low Block' ?
+possibleAnswers:
+- Utiliser les coudes pour bloquer
+- Bloquer avec le bas du corps
+- Bloquer un adversaire hors du Pack
+- Faire un contact avec la tête
+tags:
+- Fautes
+aiGenerated: true

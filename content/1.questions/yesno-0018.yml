@@ -1,0 +1,13 @@
+answer: Non
+difficulty: '2'
+explanation: Non, bloquer avec la zone entre les genoux et les pieds entraîne une
+  faute de type 'Low Block'. Cela peut provoquer des chutes dangereuses.
+hint: Pensez aux zones d'impact légales.
+label: Est-il permis de bloquer un·e adversaire en utilisant la zone entre vos genoux
+  et vos pieds ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Pénalités
+aiGenerated: true

@@ -1,0 +1,13 @@
+answer: '7'
+difficulty: '2'
+explanation: En général, 7 arbitres patinent pour surveiller les actions sur la piste.
+hint: Réfléchissez à la couverture nécessaire pour surveiller un match.
+label: Combien d'arbitres patinent sur la piste en général ?
+possibleAnswers:
+- '5'
+- '6'
+- '7'
+- '8'
+tags:
+- Rôle des arbitres
+aiGenerated: true

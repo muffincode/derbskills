@@ -1,0 +1,13 @@
+answer: Non
+difficulty: '2'
+explanation: Non, rester volontairement hors des limites pour éviter un blocage est
+  interdit et entraîne une faute de type 'Skating Out of Bounds'.
+hint: Pensez à l'esprit sportif du jeu.
+label: Peut-on rester volontairement en dehors des limites pour éviter un blocage
+  ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Pénalités
+aiGenerated: true

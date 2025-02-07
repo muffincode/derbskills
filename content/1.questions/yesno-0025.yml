@@ -1,0 +1,13 @@
+answer: Oui
+difficulty: '3'
+explanation: Oui, un·e joueur·euse peut être expulsé·e pour une faute de type 'Gross
+  Misconduct', en cas de comportement violent ou dangereux.
+hint: Pensez à ce qui garantit un jeu sûr et équitable.
+label: Un·e joueur·euse peut-il·elle être expulsé·e pour un comportement violent ou
+  dangereux ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Pénalités
+aiGenerated: true

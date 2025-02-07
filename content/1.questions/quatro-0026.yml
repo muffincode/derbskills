@@ -1,0 +1,14 @@
+answer: Être trop éloigné·e du Pack principal
+difficulty: '3'
+explanation: Out of Play' se produit lorsqu'un·e joueur·euse est trop éloigné·e du
+  Pack principal.
+hint: Réfléchissez à la distance par rapport au Pack.
+label: Que signifie 'Out of Play' ?
+possibleAnswers:
+- Bloquer hors des limites du terrain
+- Être trop éloigné·e du Pack principal
+- Dépasser un adversaire illégalement
+- S'inscrire au match après son début
+tags:
+- Fautes
+aiGenerated: true

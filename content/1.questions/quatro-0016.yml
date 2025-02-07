@@ -1,0 +1,14 @@
+answer: '7'
+difficulty: '1'
+explanation: Un·e joueur·euse est expulsé·e après avoir accumulé 7 fautes.
+hint: Réfléchissez au nombre maximum autorisé avant une expulsion.
+label: Combien de fautes un·e joueur·euse peut-iel accumuler avant d'être expulsé·e
+  ?
+possibleAnswers:
+- '5'
+- '6'
+- '7'
+- '8'
+tags:
+- Accumulation de fautes
+aiGenerated: true

@@ -1,0 +1,12 @@
+answer: Oui
+difficulty: '1'
+explanation: Oui, le·la Jammer Lead peut appeler la fin du Jam en tapotant ses hanches.
+  Cela permet de contrôler le score et le timing.
+hint: Pensez au privilège spécifique du·de la Jammer Lead.
+label: Le·la Jammer Lead peut-iel appeler la fin du Jam ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Lead Jammer
+aiGenerated: true

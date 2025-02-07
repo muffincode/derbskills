@@ -1,0 +1,14 @@
+answer: Les genoux
+difficulty: '2'
+explanation: Les genoux sont interdits pour bloquer car ils augmentent le risque de
+  blessure.
+hint: Réfléchissez aux parties du corps dangereuses pour bloquer.
+label: Quelle partie du corps n'est PAS autorisée pour bloquer ?
+possibleAnswers:
+- Les hanches
+- Les épaules
+- Les genoux
+- Le torse
+tags:
+- Zones d'impact
+aiGenerated: true

@@ -1,0 +1,13 @@
+answer: Iel est retiré·e du match
+difficulty: '2'
+explanation: Un·e joueur·euse est retiré·e du match après avoir accumulé 7 fautes.
+hint: Pensez au seuil maximum pour rester en jeu.
+label: Que se passe-t-il si un·e joueur·euse accumule 7 fautes ?
+possibleAnswers:
+- Iel est exclu·e du Jam actuel
+- Iel est retiré·e du match
+- Iel est suspendu·e pour 10 minutes
+- Iel reçoit une amende
+tags:
+- Accumulation de fautes
+aiGenerated: true

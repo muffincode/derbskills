@@ -1,0 +1,12 @@
+answer: Non
+difficulty: '3'
+explanation: Non, rester immobile de manière délibérée pour gêner le jeu est considéré
+  comme une faute de type 'Blocking with the Head or Illegal Contact'.
+hint: Réfléchissez à ce qui pourrait ralentir le jeu.
+label: Un·e joueur·euse peut-il·elle rester immobile pour gêner un·e adversaire ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Pénalités
+aiGenerated: true

@@ -1,0 +1,14 @@
+answer: Oui
+difficulty: '1'
+explanation: Oui, les protège-dents sont obligatoires car ils protègent vos dents
+  et votre mâchoire lors des contacts fréquents. Jouer sans protège-dents peut entraîner
+  des blessures graves et une disqualification.
+hint: Pensez à ce qui protège vos dents lors des impacts.
+label: Les protège-dents sont-ils obligatoires pour participer à un match de roller
+  derby ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Équipement
+aiGenerated: true

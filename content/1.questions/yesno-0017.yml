@@ -1,0 +1,12 @@
+answer: Non
+difficulty: '1'
+explanation: Non, après 7 fautes, un·e joueur·euse est expulsé·e du match. Cela garantit
+  un jeu plus sûr et équitable.
+hint: Pensez au nombre maximal de fautes autorisées.
+label: Un·e joueur·euse peut-il·elle continuer à patiner même après 7 fautes ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Pénalités
+aiGenerated: true

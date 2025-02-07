@@ -1,0 +1,12 @@
+answer: Non
+difficulty: '2'
+explanation: Non, le·la Pivot est le·la bloqueur·euse avec la coiffe à bande, mais
+  iel peut devenir Jammer si le 'star pass' est effectué.
+hint: Réfléchissez au rôle de la coiffe avec la bande.
+label: Le·la Pivot est-il·elle obligatoirement le·la joueur·euse +1 ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Rôles des joueur·euses
+aiGenerated: true

@@ -1,0 +1,12 @@
+answer: Non
+difficulty: '3'
+explanation: Non, utiliser ou viser la tête lors d'un contact est interdit. Cela entraîne
+  une faute de type 'Head Block', car c'est dangereux et risqué.
+hint: Imaginez les parties du corps fragiles et dangereuses à utiliser.
+label: Un contact avec la tête est-il autorisé ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Pénalités
+aiGenerated: true

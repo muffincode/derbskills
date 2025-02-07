@@ -1,0 +1,13 @@
+answer: Oui
+difficulty: '2'
+explanation: Oui, le·la Jammer doit dépasser légalement et en premier les bloqueur·euses
+  adverses pour être Lead.
+hint: Réfléchissez à la condition pour obtenir le statut de Lead.
+label: Est-ce que le·la Jammer doit dépasser légalement les bloqueur·euses adverses
+  pour obtenir le statut de Lead ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Lead Jammer
+aiGenerated: true

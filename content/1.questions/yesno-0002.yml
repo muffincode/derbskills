@@ -1,0 +1,14 @@
+answer: Oui
+difficulty: '2'
+explanation: Oui, des roues adaptées permettent une meilleure adhérence et un contrôle
+  optimal. Par exemple, des roues dures conviennent aux surfaces lisses et glissantes,
+  tandis que des roues tendres sont idéales pour des sols plus rugueux.
+hint: Réfléchissez à la différence entre une surface lisse et une surface adhérente.
+label: Les roues de patins doivent-elles être adaptées à la surface sur laquelle vous
+  jouez ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Équipement
+aiGenerated: true

@@ -1,0 +1,12 @@
+answer: Oui
+difficulty: '1'
+explanation: Oui, le·la Jammer doit porter la coiffe étoilée sur son casque pour marquer
+  des points. Si la coiffe est enlevée ou tombée, iel ne peut pas marquer.
+hint: Pensez à ce qui identifie le·la Jammer.
+label: Un·e Jammer doit-iel porter la coiffe étoilée pour marquer des points ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Rôles des joueur·euses
+aiGenerated: true

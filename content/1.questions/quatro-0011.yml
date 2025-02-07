@@ -1,0 +1,14 @@
+answer: '1'
+difficulty: '1'
+explanation: Un·e Jammer marque 1 point par adversaire dépassé·e, une fois le tour
+  initial terminé.
+hint: Pensez au nombre de points par adversaire légalement dépassé·e.
+label: Combien de points un·e Jammer peut-iel marquer par adversaire dépassé·e ?
+possibleAnswers:
+- '1'
+- '2'
+- '3'
+- '4'
+tags:
+- Marquer des points
+aiGenerated: true

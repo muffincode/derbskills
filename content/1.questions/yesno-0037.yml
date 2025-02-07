@@ -1,0 +1,13 @@
+answer: Oui
+difficulty: '1'
+explanation: Oui, le Pack est la zone où les bloqueur·euses des deux équipes sont
+  regroupé·es à moins de 3 mètres les un·es des autres.
+hint: Pensez à la définition du Pack.
+label: Un Pack est-il formé lorsque les bloqueur·euses des deux équipes sont à proximité
+  les un·es des autres ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Pack
+aiGenerated: true

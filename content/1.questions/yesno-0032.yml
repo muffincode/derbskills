@@ -1,0 +1,13 @@
+answer: Oui
+difficulty: '2'
+explanation: Oui, les NSO gèrent le temps, les scores, les pénalités et les statistiques
+  pour assurer le bon déroulement du match.
+hint: Réfléchissez aux fonctions de soutien des arbitres non-patinant·es.
+label: Le rôle des NSO (Non-Skating Officials) est-il de surveiller le temps et les
+  points ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Rôle des arbitres
+aiGenerated: true

@@ -1,0 +1,14 @@
+answer: Iel perd son statut de Lead
+difficulty: '2'
+explanation: Un·e Jammer Lead perd son statut s'iel reçoit une pénalité pendant le
+  Jam.
+hint: Réfléchissez aux conséquences des fautes pour le·la Jammer Lead.
+label: Que se passe-t-il si le·la Jammer Lead reçoit une pénalité ?
+possibleAnswers:
+- Iel perd son statut de Lead
+- Iel doit quitter la piste
+- Iel ne peut plus marquer de points
+- Iel peut continuer normalement
+tags:
+- Lead Jammer
+aiGenerated: true

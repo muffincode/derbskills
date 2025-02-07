@@ -1,0 +1,14 @@
+answer: Oui
+difficulty: '2'
+explanation: Oui, des coudières bien ajustées protègent efficacement vos coudes contre
+  les impacts et les abrasions. Si elles bougent ou glissent, elles ne joueront pas
+  leur rôle de manière optimale.
+hint: Pensez à comment elles restent en place pendant un match intense.
+label: Les coudières doivent-elles être portées correctement ajustées pour être efficaces
+  ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Équipement
+aiGenerated: true

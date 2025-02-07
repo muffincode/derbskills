@@ -1,0 +1,13 @@
+answer: Oui
+difficulty: '1'
+explanation: Oui, un·e joueur·euse peut revenir sur la piste dès que ses 30 secondes
+  de pénalité sont terminées.
+hint: Réfléchissez au temps passé en Penalty Box.
+label: Un·e joueur·euse peut-iel revenir immédiatement sur la piste après avoir purgé
+  une pénalité ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Penalty Box
+aiGenerated: true

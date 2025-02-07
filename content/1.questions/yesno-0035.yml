@@ -1,0 +1,12 @@
+answer: Oui
+difficulty: '1'
+explanation: Oui, le·la Pivot peut bloquer comme un·e bloqueur·euse ordinaire, en
+  plus d'avoir la possibilité de devenir Jammer.
+hint: Réfléchissez à ses rôles multiples.
+label: Le·la Pivot peut-iel bloquer comme un·e bloqueur·euse classique ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Rôles des joueur·euses
+aiGenerated: true

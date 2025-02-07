@@ -1,0 +1,13 @@
+answer: Non
+difficulty: '3'
+explanation: Non, initier un contact dangereux entraîne une faute de type 'Illegal
+  Contact'. Jouer de manière dangereuse est interdit.
+hint: Réfléchissez aux conséquences des actions illégales.
+label: Un·e Jammer peut-il·elle initier un contact dangereux pour éviter un blocage
+  ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Pénalités
+aiGenerated: true

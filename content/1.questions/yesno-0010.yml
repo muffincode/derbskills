@@ -1,0 +1,12 @@
+answer: Non
+difficulty: '1'
+explanation: Non, utiliser ses pieds pour bloquer entraîne une faute de type 'Low
+  Block'. Ce type de contact est dangereux pour vous et les autres joueur·euses.
+hint: Pensez aux parties du corps utilisées pour bloquer.
+label: Est-il légal de bloquer un·e adversaire en utilisant ses pieds ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Pénalités
+aiGenerated: true

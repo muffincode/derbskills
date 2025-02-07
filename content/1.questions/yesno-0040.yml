@@ -1,0 +1,13 @@
+answer: Non
+difficulty: '2'
+explanation: Non, quitter la piste volontairement pour éviter un contact est considéré
+  comme une faute de 'Skating Out of Bounds'.
+hint: Pensez à l'importance de rester dans les limites.
+label: Un·e bloqueur·euse peut-iel quitter la piste volontairement pour éviter un
+  contact ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Rôles des joueur·euses
+aiGenerated: true

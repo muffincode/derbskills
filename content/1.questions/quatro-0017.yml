@@ -1,0 +1,14 @@
+answer: Passer un adversaire hors des limites
+difficulty: '2'
+explanation: Cutting the Track' se produit lorsqu'un·e joueur·euse dépasse un·e adversaire
+  en étant hors des limites.
+hint: Réfléchissez aux règles sur les dépassements.
+label: Que signifie 'Cutting the Track' ?
+possibleAnswers:
+- Quitter volontairement la piste
+- Passer un adversaire hors des limites
+- Patiner à contre-sens
+- Rentrer dans la Penalty Box
+tags:
+- Fautes
+aiGenerated: true

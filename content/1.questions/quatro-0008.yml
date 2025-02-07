@@ -1,0 +1,14 @@
+answer: Pivot
+difficulty: '2'
+explanation: Le·la Pivot peut devenir Jammer en recevant la coiffe étoilée lors d'un
+  'star pass'.
+hint: Pensez au rôle spécifique du·de la Pivot.
+label: Quel·le joueur·euse peut devenir Jammer en cours de Jam ?
+possibleAnswers:
+- Bloqueur·euse
+- Arbitre
+- Pivot
+- Jammer Lead
+tags:
+- Rôles des joueur·euses
+aiGenerated: true

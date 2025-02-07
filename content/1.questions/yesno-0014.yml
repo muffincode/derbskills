@@ -1,0 +1,13 @@
+answer: Non
+difficulty: '2'
+explanation: Non, pousser avec ses mains entraîne une faute de type 'Forearm'. Vous
+  devez utiliser des actions légales pour marquer des points.
+hint: Pensez aux actions légales pour dépasser un·e adversaire.
+label: Un Jammer peut-il marquer des points même s'iel pousse un·e adversaire hors
+  de son chemin avec ses mains ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Pénalités
+aiGenerated: true

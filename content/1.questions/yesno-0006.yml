@@ -1,0 +1,13 @@
+answer: Non
+difficulty: '1'
+explanation: Non, utiliser son avant-bras pour pousser ou bloquer un·e adversaire
+  est interdit. Cela entraîne une faute de type 'Forearm', car seuls les épaules,
+  les hanches, le torse, et les cuisses peuvent être utilisés pour bloquer.
+hint: Pensez aux parties du corps légales pour bloquer.
+label: Utiliser son avant-bras pour pousser un·e adversaire est-il autorisé ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Pénalités
+aiGenerated: true

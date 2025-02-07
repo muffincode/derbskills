@@ -1,0 +1,14 @@
+answer: Oui
+difficulty: '1'
+explanation: Oui, un casque est indispensable pour protéger votre tête. Même un·e
+  joueur·euse expérimenté·e peut tomber ou subir une collision, et un casque bien
+  ajusté réduit considérablement les risques de traumatisme crânien.
+hint: Imaginez une collision accidentelle ou une chute inattendue.
+label: Un casque est-il nécessaire même si vous êtes un·e joueur·euse très expérimenté·e
+  ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Équipement
+aiGenerated: true

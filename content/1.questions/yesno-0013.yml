@@ -1,0 +1,13 @@
+answer: Non
+difficulty: '2'
+explanation: Non, ignorer un appel de faute entraîne une faute de type 'Failure to
+  Return'. Vous devez immédiatement suivre les instructions de l'arbitre.
+hint: Réfléchissez aux conséquences d'ignorer une instruction.
+label: Un·e joueur·euse peut-il·elle ignorer un arbitre qui lui signale une faute
+  ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Pénalités
+aiGenerated: true

@@ -9,20 +9,20 @@
             <section>
                 <h2 class="mb-4">Les derbquiz</h2>
                 <div class="grid grid-cols-2 grid-rows-[200px] gap-3">
-                    <article class="bg-cute text-white p-3 rounded flex flex-col justify-between">
+                    <NuxtLink to="/quiz?n=15" class="bg-cute text-white p-3 rounded flex flex-col justify-between">
                         <h3 class="grid gap-2">
                             <span class="text-3xl">🎲</span>
                             <span>Quiz aléatoire de 15 questions</span>
                         </h3>
                         <button class="btn">Commencer</button>
-                    </article>
-                    <article class="bg-cute text-white p-3 rounded flex flex-col justify-between">
+                    </NuxtLink>
+                    <NuxtLink to="/quiz?n=30" class="bg-cute text-white p-3 rounded flex flex-col justify-between">
                         <h3 class="grid gap-2">
                             <span class="text-3xl">🎲</span>
                             <span>Quiz aléatoire de 30 questions</span>
                         </h3>
                         <button class="btn">Commencer</button>
-                    </article>
+                    </NuxtLink>
                 </div>
             </section>
 

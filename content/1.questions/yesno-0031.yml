@@ -1,0 +1,12 @@
+answer: Oui
+difficulty: '2'
+explanation: Oui, un·e Jammer Lead perd son statut s'iel reçoit une pénalité pendant
+  le Jam.
+hint: Pensez aux fautes qui pourraient annuler ce statut.
+label: Le·la Jammer Lead peut-iel perdre son statut de Lead ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Lead Jammer
+aiGenerated: true

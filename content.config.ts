@@ -16,7 +16,8 @@ export default defineContentConfig({
             answer: z.string(),
             explanation: z.string(),
             tags: z.array(z.string()),
-            difficulty: z.string()
+            difficulty: z.string(),
+            aiGenerated: z.boolean()
         })
     })
   }

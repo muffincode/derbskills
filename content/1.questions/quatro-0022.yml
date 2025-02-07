@@ -1,0 +1,15 @@
+answer: Non
+difficulty: '2'
+explanation: Un·e joueur·euse doit purger ses 30 secondes complètes avant de revenir
+  sur la piste.
+hint: Réfléchissez à la durée obligatoire des pénalités.
+label: Un·e joueur·euse peut-iel réintégrer la piste après avoir été pénalisé·e sans
+  purger ses 30 secondes ?
+possibleAnswers:
+- Oui
+- Non
+- Seulement si un·e remplaçant·e entre en piste
+- Seulement sur décision du·de la Head Referee
+tags:
+- Penalty Box
+aiGenerated: true

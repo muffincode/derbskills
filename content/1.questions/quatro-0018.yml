@@ -1,0 +1,13 @@
+answer: Head Referee
+difficulty: '3'
+explanation: Le·la Head Referee est responsable de signaler la fin de la période.
+hint: Pensez au rôle principal de supervision.
+label: Quel·le joueur·euse est chargé·e de signaler la fin de la période ?
+possibleAnswers:
+- Jammer Lead
+- Pivot
+- SO
+- Head Referee
+tags:
+- Rôle des arbitres
+aiGenerated: true

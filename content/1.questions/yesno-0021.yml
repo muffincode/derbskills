@@ -1,0 +1,12 @@
+answer: Non
+difficulty: '2'
+explanation: Non, quitter le Pack pour bloquer entraîne une faute de type 'Out of
+  Play'. Vous devez rester dans le Pack pour interagir.
+hint: Pensez aux règles sur la position des bloqueurs.
+label: Un bloqueur peut-il quitter le Pack pour bloquer un Jammer ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Pénalités
+aiGenerated: true

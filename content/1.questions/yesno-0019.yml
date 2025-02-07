@@ -1,0 +1,13 @@
+answer: Non
+difficulty: '1'
+explanation: Non, une pénalité standard doit durer 30 secondes. Toute sortie prématurée
+  entraîne une faute supplémentaire.
+hint: Pensez à la durée minimale de la pénalité.
+label: Un·e joueur·euse peut-il·elle purger moins de 30 secondes dans la Penalty Box
+  ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Pénalités
+aiGenerated: true

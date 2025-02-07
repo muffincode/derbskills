@@ -1,0 +1,13 @@
+answer: Non
+difficulty: '2'
+explanation: Bloquer hors du Pack est illégal car cela sort de la zone de jeu définie.
+hint: Réfléchissez à la définition du Pack et aux règles de blocage.
+label: Un·e joueur·euse peut-iel bloquer hors du Pack ?
+possibleAnswers:
+- Oui
+- Non
+- Seulement si iel est le·la Pivot
+- Seulement si iel a le statut Lead
+tags:
+- Zones légales
+aiGenerated: true

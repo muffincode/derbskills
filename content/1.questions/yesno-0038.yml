@@ -1,0 +1,12 @@
+answer: Non
+difficulty: '2'
+explanation: Non, le match ne peut pas commencer tant qu'un Pack légal n'est pas formé.
+  Cela garantit que le jeu commence dans les règles.
+hint: Réfléchissez à la condition nécessaire pour démarrer un match.
+label: Un match peut-il commencer sans un Pack légal ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Pack
+aiGenerated: true

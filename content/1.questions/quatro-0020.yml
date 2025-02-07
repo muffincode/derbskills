@@ -1,0 +1,13 @@
+answer: '4'
+difficulty: '1'
+explanation: Chaque équipe a 4 bloqueur·euses, dont un·e peut être Pivot.
+hint: Réfléchissez à la composition normale d'une équipe.
+label: Combien de bloqueur·euses composent une équipe sur la piste ?
+possibleAnswers:
+- '2'
+- '3'
+- '4'
+- '5'
+tags:
+- Rôles des joueur·euses
+aiGenerated: true

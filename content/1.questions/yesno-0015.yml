@@ -1,0 +1,13 @@
+answer: Non
+difficulty: '2'
+explanation: Non, bloquer un·e adversaire hors des limites entraîne une faute de type
+  'Out of Bounds Block'. Vous devez rester dans les limites pour interagir.
+hint: Pensez aux limites de la zone de jeu.
+label: Un·e joueur·euse peut-il·elle bloquer un·e adversaire hors des limites de la
+  piste ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Pénalités
+aiGenerated: true

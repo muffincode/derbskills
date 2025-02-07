@@ -1,0 +1,12 @@
+answer: Oui
+difficulty: '2'
+explanation: Oui, le·la Pivot peut devenir Jammer en recevant la coiffe étoilée lors
+  d'un 'star pass'.
+hint: Réfléchissez au rôle spécifique de la coiffe à bande.
+label: Le·la Pivot peut-il·elle devenir Jammer ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Rôles des joueur·euses
+aiGenerated: true

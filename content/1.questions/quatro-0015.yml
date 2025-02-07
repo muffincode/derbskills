@@ -1,0 +1,15 @@
+answer: Forearm
+difficulty: '2'
+explanation: Une faute de type 'Forearm' est appelée lorsqu'un·e joueur·euse utilise
+  ses bras pour bloquer.
+hint: Pensez à l'utilisation illégale des bras.
+label: Quelle faute est appelée si un·e joueur·euse utilise ses bras pour bloquer
+  ?
+possibleAnswers:
+- Low Block
+- Forearm
+- Back Block
+- Out of Play
+tags:
+- Fautes
+aiGenerated: true

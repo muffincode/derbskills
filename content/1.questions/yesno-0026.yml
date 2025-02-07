@@ -1,0 +1,13 @@
+answer: Oui
+difficulty: '1'
+explanation: Oui, un·e Jammer marque 1 point pour chaque adversaire légalement dépassé·e
+  (une fois que le tour initial est terminé).
+hint: Réfléchissez à comment les points sont attribués.
+label: Le·la Jammer peut marquer des points en dépassant les hanches des adversaires
+  ?
+possibleAnswers:
+- oui
+- non
+tags:
+- Marquer des points
+aiGenerated: true

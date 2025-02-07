@@ -1,0 +1,15 @@
+answer: Oui
+difficulty: '2'
+explanation: Un·e Jammer marque des points automatiquement sur les adversaires en
+  Penalty Box.
+hint: Pensez à ce qui se passe hors de la piste.
+label: Le·la Jammer peut-iel marquer des points sur un·e joueur·euse en Penalty Box
+  ?
+possibleAnswers:
+- Oui
+- Non
+- Seulement en cas de faute
+- S'il y a un avantage numérique
+tags:
+- Marquer des points
+aiGenerated: true
