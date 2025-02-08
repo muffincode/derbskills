@@ -2,7 +2,7 @@ answer: 2 minutes
 difficulty: '1'
 explanation: Un Jam peut durer un maximum de 2 minutes, sauf si le·la Jammer Lead
   appelle la fin avant.
-hint: Réfléchissez à la durée totale d'un Jam.
+hint: C'est un peu du par coeur là! Un moyen mnémotechnique serait de penser au nombre d'équipes.
 label: Combien de temps maximum dure un Jam ?
 possibleAnswers:
 - 30 secondes
@@ -10,5 +10,6 @@ possibleAnswers:
 - 2 minutes
 - 3 minutes
 tags:
-- Durée des Jams
+- basics
 aiGenerated: true
+reviewer: '@camillef'

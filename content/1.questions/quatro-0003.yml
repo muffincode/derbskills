@@ -2,7 +2,7 @@ answer: Jammer
 difficulty: '1'
 explanation: Le·la Jammer porte une coiffe étoilée pour indiquer qu'iel peut marquer
   des points.
-hint: Pensez au rôle principal de marquer des points.
+hint: C'est la personne qui marque les points.
 label: Quel·le joueur·euse porte une coiffe avec une étoile ?
 possibleAnswers:
 - Bloqueur·euse
@@ -10,5 +10,7 @@ possibleAnswers:
 - Pivot
 - NSO
 tags:
-- Rôles des joueur·euses
+- basics
+- vocab
 aiGenerated: true
+reviewer: '@camillef'

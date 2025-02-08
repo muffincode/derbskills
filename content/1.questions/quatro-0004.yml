@@ -3,13 +3,14 @@ difficulty: '1'
 explanation: Le Pack est la zone où les bloqueur·euses des deux équipes sont regroupé·es
   à moins de 3 mètres.
 hint: Pensez à ce qui forme la zone de jeu principale.
-label: Comment appelle-t-on le groupe de bloqueur·euses des deux équipes regroupé·es
-  ?
+label: Comment appelle-t-on le groupe de bloqueur·euses des deux équipes regroupé·es ?
 possibleAnswers:
 - Zone de contact
 - Pack
 - Ligne de pivot
 - Ligne d'engagement
 tags:
-- Pack
+- basics
+- vocab
 aiGenerated: true
+reviewer: '@camillef'

@@ -11,5 +11,6 @@ possibleAnswers:
 - '7'
 - '4'
 tags:
-- Composition des équipes
+- basics
 aiGenerated: true
+reviewer: '@camillef'

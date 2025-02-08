@@ -10,5 +10,6 @@ possibleAnswers:
 - Les genoux
 - Le torse
 tags:
-- Zones d'impact
+- faults
 aiGenerated: true
+reviewer: '@camillef'
