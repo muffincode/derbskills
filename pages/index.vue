@@ -39,6 +39,27 @@
                         </h3>
                         <button class="btn">Commencer</button>
                     </NuxtLink>
+                    <NuxtLink to="/quiz?difficulty=1" class="bg-cute text-white p-3 rounded flex flex-col justify-between gap-6">
+                        <h3 class="grid gap-2">
+                            <span class="text-3xl">☀️</span>
+                            <span>Questions faciles</span>
+                        </h3>
+                        <button class="btn">Commencer</button>
+                    </NuxtLink>
+                    <NuxtLink to="/quiz?difficulty=2" class="bg-cute text-white p-3 rounded flex flex-col justify-between gap-6">
+                        <h3 class="grid gap-2">
+                            <span class="text-3xl">⛅️</span>
+                            <span>Questions moyennes</span>
+                        </h3>
+                        <button class="btn">Commencer</button>
+                    </NuxtLink>
+                    <NuxtLink to="/quiz?difficulty=3" class="bg-cute text-white p-3 rounded flex flex-col justify-between gap-6">
+                        <h3 class="grid gap-2">
+                            <span class="text-3xl">⛈</span>
+                            <span>Questions difficiles</span>
+                        </h3>
+                        <button class="btn">Commencer</button>
+                    </NuxtLink>
                 </div>
             </section>
 
@@ -61,7 +82,7 @@
                     <NuxtLink to="/questions" class="bg-gray-200 text-white p-3 rounded flex flex-col justify-between gap-6">
                         <h3 class="text-gray-600 grid gap-2">
                             <span class="text-3xl">🙋‍♀️</span>
-                            <span>Voir toutes les questions</span>
+                            <span>Voir toutes les questions ({{ questions.length }})</span>
                         </h3>
                         <button class="btn">Lire</button>
                     </NuxtLink>
@@ -76,8 +97,6 @@
 </template>
 
 <script setup>
-const tags = await queryCollection('tags')
-  .all()
-
-console.log(tags)
+const tags = await queryCollection('tags').all()
+const questions = await queryCollection('questions').all()
 </script>
