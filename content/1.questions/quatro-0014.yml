@@ -2,7 +2,6 @@ answer: En dépassant les hanches des adversaires
 difficulty: '1'
 explanation: Un·e Jammer marque des points en dépassant légalement les hanches des
   adversaires.
-hint: Pensez à ce qui est requis pour valider un point.
 label: Comment un·e Jammer marque-t-iel des points ?
 possibleAnswers:
 - En bloquant des adversaires
@@ -10,5 +9,6 @@ possibleAnswers:
 - En dépassant les hanches des adversaires
 - En touchant les cônes de piste
 tags:
-- Marquer des points
+- basics, jammer
 aiGenerated: true
+reviewer: '@camillef'

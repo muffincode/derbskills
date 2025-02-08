@@ -5,10 +5,11 @@ explanation: Une pénalité standard dure 30 secondes. Toute sortie prématurée
 hint: Réfléchissez à la durée de base pour une faute.
 label: Quelle est la durée standard d'une pénalité en Penalty Box ?
 possibleAnswers:
-- 10 secondes
+- 7 secondes
 - 20 secondes
 - 30 secondes
-- 40 secondes
+- 42 secondes
 tags:
-- Penalty Box
+- faults
 aiGenerated: true
+reviewer: '@camillef'

@@ -10,5 +10,6 @@ possibleAnswers:
 - '3'
 - '4'
 tags:
-- Marquer des points
+- basics, jammer
 aiGenerated: true
+reviewer: '@camillef'

@@ -1,14 +1,14 @@
 answer: NSO
 difficulty: '2'
 explanation: Le·la NSO (Non-Skating Official) gère les pénalités, le temps et le score.
-hint: Pensez au rôle des arbitres non-patinant·es.
-label: Comment appelle-t-on le·la joueur·euse qui contrôle les pénalités et le temps
-  ?
+hint: Cette personne n'a pas besoin d'être sur patin, connaissez-vous les acronymes ?
+label: Comment appelle-t-on la personne qui contrôle les pénalités et le temps ?
 possibleAnswers:
 - SO
 - NSO
-- Jammer Lead
+- Françoise
 - Pivot
 tags:
-- Rôle des arbitres
+- referees
 aiGenerated: true
+reviewer: '@camillef'

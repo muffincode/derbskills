@@ -1,13 +1,14 @@
 answer: 2 fois 30 minutes
 difficulty: '1'
 explanation: Un match de roller derby se joue en deux périodes de 30 minutes.
-hint: Réfléchissez à la durée totale du match.
+hint: Un match de derby est foutu pareil que beaucoup d'autres sports.
 label: Combien de temps dure un match de roller derby ?
 possibleAnswers:
-- 30 minutes
-- 60 minutes
-- 50 minutes
+- 45 minutes
+- 1 fois 60 minutes
+- 3 fois 20 minutes
 - 2 fois 30 minutes
 tags:
-- Durée des matchs
+- basics
 aiGenerated: true
+reviewer: '@camillef'
