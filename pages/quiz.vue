@@ -14,12 +14,12 @@
         </span>
         <details v-if="!state" class="absolute bottom-6">
           <summary class="text-white font-bold text-xs">
-            <LightBulbIcon class="size-3 inline" /> <u>Indice</u>
+            <LightBulbIcon class="size-3 inline" /> <u class="cursor-pointer">Indice</u>
           </summary>
           <p class="text-white">{{ question.hint }}</p>
         </details>
       </main>
-      <footer class="bg-white p-6 grid gap-3 h-max">
+      <footer class="bg-white p-6 grid gap-3 h-max md:w-1/2 md:mx-auto">
         <template v-if="state">
           <div v-if="state === 'success'" class="bg-green-600 text-white rounded p-2 mt-5">
             <p>🥳  Bien joué</p>
@@ -34,7 +34,7 @@
           </button>
         </template>
         <template v-else>
-          <button v-for="a in question.possibleAnswers" class="btn" @click="compute(a)" :disabled="state != ''"
+          <button v-for="a in question.possibleAnswers" class="btn text-white" @click="compute(a)" :disabled="state != ''"
             :class="{ 'btn-outline': myAnswer === a }">
             {{ cap(a) }}
           </button>
