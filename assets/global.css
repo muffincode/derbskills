@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 /* styles.css or inside a global CSS file */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  font-family: "Rubik", serif;
+}
 
 h1 {
     @apply text-xl font-bold text-black;
