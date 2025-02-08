@@ -12,7 +12,7 @@
           <SparklesIcon class="size-3 inline" />
           Générée par IA<span v-if="question.reviewer">, revue par {{ question.reviewer }}</span>
         </span>
-        <details v-if="!state" class="absolute bottom-6">
+        <details v-if="!state && question.hint" class="absolute bottom-6">
           <summary class="text-white font-bold text-xs">
             <LightBulbIcon class="size-3 inline" /> <u class="cursor-pointer">Indice</u>
           </summary>
@@ -66,6 +66,7 @@ function cap(val) {
 let n = useRoute().query.n || 15
 const tags = useRoute().query.tags
 const type = useRoute().query.type
+const difficulty = useRoute().query.difficulty
 
 const db = await queryCollection('questions')
   .all()
@@ -82,6 +83,9 @@ if (type) {
   } else if (type === 'multipleChoice') {
     data = db.filter(q => q.possibleAnswers.length > 2)
   }
+}
+if (difficulty) {
+  data = db.filter(q => q.difficulty === difficulty)
 }
 
 data = [...data].sort(() => 0.5 - Math.random()).slice(0, n);
