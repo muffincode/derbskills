@@ -81,23 +81,22 @@ const tags = useRoute().query.tags
 const type = useRoute().query.type
 const difficulty = useRoute().query.difficulty
 
-const db = await queryCollection('questions')
-  .all()
+const { data: db } = await useAsyncData('questions', () => queryCollection('questions').all())
 
 // TODO: Filtering should happen with Nuxt Content but filter in arrays don't work yet
 let data = []
 if (tags) {
-  data = db.filter(q => q.tags?.includes(tags))
+  data = db.value.filter(q => q.tags?.includes(tags))
 }
 if (type) {
   if (type === 'yesNo') {
-    data = db.filter(q => q.possibleAnswers.length === 2)
+    data = db.value.filter(q => q.possibleAnswers.length === 2)
   } else if (type === 'multipleChoice') {
-    data = db.filter(q => q.possibleAnswers.length > 2)
+    data = db.value.filter(q => q.possibleAnswers.length > 2)
   }
 }
 if (difficulty) {
-  data = db.filter(q => q.difficulty === difficulty)
+  data = db.value.filter(q => q.difficulty === difficulty)
 }
 
 data = [...data].sort(() => 0.5 - Math.random()).slice(0, n);

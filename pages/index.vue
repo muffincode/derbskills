@@ -97,6 +97,6 @@
 </template>
 
 <script setup>
-const tags = await queryCollection('tags').all()
-const questions = await queryCollection('questions').all()
+const { data: tags } = await useAsyncData('tags', () => queryCollection('tags').all())
+const { data: questions } = await useAsyncData('questions', () => queryCollection('questions').all())
 </script>
