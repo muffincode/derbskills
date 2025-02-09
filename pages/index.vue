@@ -82,7 +82,7 @@
                     <NuxtLink to="/questions" class="bg-gray-200 text-white p-3 rounded flex flex-col justify-between gap-6">
                         <h3 class="text-gray-600 grid gap-2">
                             <span class="text-3xl">🙋‍♀️</span>
-                            <span>Voir toutes les questions ({{ questions.length }})</span>
+                            <span>Voir toutes les questions ({{ questions?.length }})</span>
                         </h3>
                         <button class="btn">Lire</button>
                     </NuxtLink>
