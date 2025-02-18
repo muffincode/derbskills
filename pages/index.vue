@@ -121,6 +121,12 @@
 <script setup>
 import { DocumentPlusIcon, UserCircleIcon } from '@heroicons/vue/24/outline'
 
+useHead({
+  script: [
+    { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" },
+  ],
+});
+
 const { data: tags } = await useAsyncData('tags', () => queryCollection('tags').all())
 const { data: questions } = await useAsyncData('questions', () => queryCollection('questions').all())
 const { data: packs } = await useAsyncData('packs', () => queryCollection('packs').all())

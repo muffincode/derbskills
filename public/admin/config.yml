@@ -1,0 +1,27 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: 'questions'
+    label: 'Questions'
+    folder: 'content/1.questions/contributions'
+    format: 'frontmatter'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Question', name: 'label', widget: 'string' }
+      - { label: 'Hint', name: 'hint', widget: 'string' }
+      - { label: 'Possible Answers', name: 'possibleAnswers', widget: 'list', field: {label: Answer, name: answer, widget: string} }
+      - { label: 'Answer', name: 'answer', widget: 'string' }
+      - { label: 'Explanation', name: 'explanation', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'list', field: {label: Tag, name: tag, widget: string} }
+      - { label: 'Difficulty', name: 'difficulty', widget: 'string' }
+      - { label: 'AI Generated', name: 'aiGenerated', widget: 'boolean' }
+      - { label: 'Reviewer', name: 'reviewer', widget: 'string' }
+      - { label: 'Author', name: 'author', widget: 'string' }
