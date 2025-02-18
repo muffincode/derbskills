@@ -77,9 +77,7 @@ function cap(val) {
 }
 
 let n = useRoute().query.n || 15
-const tags = useRoute().query.tags
-const type = useRoute().query.type
-const difficulty = useRoute().query.difficulty
+const { tags, type, difficulty, pack } = useRoute().query
 
 const { data: db } = await useAsyncData('questions', () => queryCollection('questions').all())
 
@@ -97,6 +95,9 @@ if (type) {
 }
 if (difficulty) {
   data = db.value.filter(q => q.difficulty === difficulty)
+}
+if (pack) {
+  data = db.value.filter(q => q.id.includes(pack))
 }
 
 data = [...data].sort(() => 0.5 - Math.random()).slice(0, n);

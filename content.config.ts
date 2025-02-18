@@ -21,7 +21,7 @@ export default defineContentConfig({
       })
     }),
     questions: defineCollection({
-      source: '1.questions/**.yml',
+      source: '1.questions/*/*.yml',
       type: 'data',
       schema: z.object({
         label: z.string(),
@@ -34,6 +34,14 @@ export default defineContentConfig({
         aiGenerated: z.boolean(),
         reviewer: z.string(),
         author: z.string()
+      })
+    }),
+    packs: defineCollection({
+      source: '1.questions/*/*.json',
+      type: 'data',
+      schema: z.object({
+        title: z.string(),
+        description: z.string(),
       })
     })
   }
