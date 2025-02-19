@@ -6,12 +6,36 @@ media_folder: static/img
 public_folder: /img
 
 collections:
+  - name: 'authors'
+    label: 'Authors'
+    folder: 'content/3.authors'
+    extension: 'yml'
+    create: true,
+    slug: '{{key}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Handle (@name)', name: 'key', widget: 'string' }
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Club (city)', name: 'club', widget: 'string' }
+  - name: 'tags'
+    label: 'Tags'
+    folder: 'content/2.tags'
+    extension: 'yml'
+    create: true,
+    slug: '{{key}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Key (id)', name: 'key', widget: 'string' }
+      - { label: 'Label (fr)', name: 'fr', widget: 'string' }
+      - { label: 'Emoji', name: 'icon', widget: 'string' }
   - name: 'questions'
     label: 'Questions'
     folder: 'content/1.questions/contributions'
-    format: 'frontmatter'
     create: true
-    slug: '{{slug}}'
+    slug: '{{author}}-{{year}}{{month}}{{day}}-{{hour}}{{minute}}{{second}}'
+    extension: 'yml'
     editor:
       preview: false
     fields:
@@ -20,8 +44,26 @@ collections:
       - { label: 'Possible Answers', name: 'possibleAnswers', widget: 'list', field: {label: Answer, name: answer, widget: string} }
       - { label: 'Answer', name: 'answer', widget: 'string' }
       - { label: 'Explanation', name: 'explanation', widget: 'string' }
-      - { label: 'Tags', name: 'tags', widget: 'list', field: {label: Tag, name: tag, widget: string} }
-      - { label: 'Difficulty', name: 'difficulty', widget: 'string' }
-      - { label: 'AI Generated', name: 'aiGenerated', widget: 'boolean' }
-      - { label: 'Reviewer', name: 'reviewer', widget: 'string' }
-      - { label: 'Author', name: 'author', widget: 'string' }
+      - label: "Tags"
+        name: "tags"
+        widget: "relation"
+        collection: "tags"
+        search_fields: ["key", "fr"]
+        value_field: "key"
+        display_fields: ["key", "fr", "icon"]
+      - label: "Difficulty"
+        name: "difficulty"
+        widget: "select"
+        options:
+          - { label: "Easy", value: "1" }
+          - { label: "Average", value: "2" }
+          - { label: "Difficult", value: "3" }
+      - { label: 'AI Generated', name: 'aiGenerated', widget: 'boolean', required: false,  default: false }
+      - { label: 'Reviewer', name: 'reviewer', widget: 'string', required: false }
+      - label: "Author"
+        name: "author"
+        widget: "relation"
+        collection: "authors"
+        search_fields: ["name", "key"]
+        value_field: "key"
+        display_fields: ["key", "name", "club"]
