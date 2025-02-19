@@ -28,3 +28,4 @@ yarn.lock
 
 # scripting for questions generation
 *.py
+.yarn/install-state.gz
