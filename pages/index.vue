@@ -9,9 +9,9 @@
                 <NuxtLink to="/contribute">
                     <DocumentPlusIcon class="size-6 inline cursor-pointer text-black" />
                 </NuxtLink>
-                <NuxtLink to="/user">
+                <!-- <NuxtLink to="/user">
                     <UserCircleIcon class="size-6 inline cursor-pointer text-black" />
-                </NuxtLink>
+                </NuxtLink> -->
             </div>
         </header>
         <hr>
@@ -78,7 +78,7 @@
                 </div>
             </section>
 
-            <section>
+            <section v-if="tags.length > 0">
                 <h2 class="mb-4">Par thématique</h2>
                 <div class="grid grid-cols-2 gap-3 md:grid-cols-3">
                     <NuxtLink v-for="tag in tags" :key="tag.id" :to="`/quiz?tags=${tag.key}&n=10`" class="bg-cute text-white p-3 rounded flex flex-col justify-between gap-6">
@@ -97,7 +97,7 @@
                 <NuxtLink><button class="btn">Créer un quiz</button></NuxtLink>
             </section>
 
-            <section>
+            <section v-if="packs.length > 0">
                 <h2 class="mb-4">Les packs</h2>
                 <div class="grid grid-cols-2 gap-3 md:grid-cols-3">
                     <NuxtLink v-for="pack in packs" :key="pack.id" :to="`/quiz?pack=${pack.id.split('/')[2]}&n=10`" class="bg-cute text-white p-3 rounded flex flex-col justify-between gap-6">

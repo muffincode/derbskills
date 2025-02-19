@@ -41,7 +41,7 @@ collections:
     fields:
       - { label: 'Question', name: 'label', widget: 'string' }
       - { label: 'Hint', name: 'hint', widget: 'string' }
-      - { label: 'Possible Answers', name: 'possibleAnswers', widget: 'list', field: {label: Answer, name: answer, widget: string} }
+      - { label: 'Possible Answers', name: 'possibleAnswers', widget: 'list', field: { label: Answer, name: answer, widget: string, minimize_collapsed: true } }
       - { label: 'Answer', name: 'answer', widget: 'string' }
       - { label: 'Explanation', name: 'explanation', widget: 'string' }
       - label: "Tags"
@@ -50,7 +50,8 @@ collections:
         collection: "tags"
         search_fields: ["key", "fr"]
         value_field: "key"
-        display_fields: ["key", "fr", "icon"]
+        display_fields: ["icon", "fr"]
+        multiple: true
       - label: "Difficulty"
         name: "difficulty"
         widget: "select"
@@ -58,12 +59,21 @@ collections:
           - { label: "Easy", value: "1" }
           - { label: "Average", value: "2" }
           - { label: "Difficult", value: "3" }
-      - { label: 'AI Generated', name: 'aiGenerated', widget: 'boolean', required: false,  default: false }
-      - { label: 'Reviewer', name: 'reviewer', widget: 'string', required: false }
       - label: "Author"
         name: "author"
         widget: "relation"
         collection: "authors"
         search_fields: ["name", "key"]
         value_field: "key"
+        required: false
         display_fields: ["key", "name", "club"]
+      - { label: 'AI Generated', name: 'aiGenerated', widget: 'boolean', required: false,  default: false }
+      - label: "Reviewer"
+        name: "reviewer"
+        widget: "relation"
+        collection: "authors"
+        search_fields: ["name", "key"]
+        value_field: "key"
+        required: false
+        display_fields: ["key", "name", "club"]
+
