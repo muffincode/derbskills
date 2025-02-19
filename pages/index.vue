@@ -9,9 +9,6 @@
                 <NuxtLink to="/contribute">
                     <DocumentPlusIcon class="size-6 inline cursor-pointer text-black" />
                 </NuxtLink>
-                <!-- <NuxtLink to="/user">
-                    <UserCircleIcon class="size-6 inline cursor-pointer text-black" />
-                </NuxtLink> -->
             </div>
         </header>
         <hr>
@@ -119,7 +116,7 @@
 </template>
 
 <script setup>
-import { DocumentPlusIcon, UserCircleIcon } from '@heroicons/vue/24/outline'
+import { DocumentPlusIcon } from '@heroicons/vue/24/outline'
 
 useHead({
   script: [
