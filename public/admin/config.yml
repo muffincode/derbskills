@@ -10,7 +10,7 @@ collections:
     label: 'Authors'
     folder: 'content/3.authors'
     extension: 'yml'
-    create: true,
+    create: true
     slug: '{{key}}'
     editor:
       preview: false
@@ -22,7 +22,7 @@ collections:
     label: 'Tags'
     folder: 'content/2.tags'
     extension: 'yml'
-    create: true,
+    create: true
     slug: '{{key}}'
     editor:
       preview: false
