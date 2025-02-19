@@ -83,20 +83,20 @@ const { data: db } = await useAsyncData('questions', () => queryCollection('ques
 
 // TODO: Filtering should happen with Nuxt Content but filter in arrays don't work yet
 let data = []
-if (tags) {
+if (tags && tags != '') {
   data = db.value.filter(q => q.tags?.includes(tags))
 }
-if (type) {
+if (type && type != '') {
   if (type === 'yesNo') {
     data = db.value.filter(q => q.possibleAnswers.length === 2)
   } else if (type === 'multipleChoice') {
     data = db.value.filter(q => q.possibleAnswers.length > 2)
   }
 }
-if (difficulty) {
+if (difficulty && difficulty != '') {
   data = db.value.filter(q => q.difficulty === difficulty)
 }
-if (pack) {
+if (pack && pack != '') {
   data = db.value.filter(q => q.id.includes(pack))
 }
 

@@ -94,7 +94,7 @@
             <h2 class="">Personnalisé</h2>
             <section class="bg-[#92B4F4] p-6 rounded text-white grid gap-3">
                 <p>Créez un quiz avec des filtres personnalisés (nombre de questions, thématiques, etc)</p>
-                <NuxtLink><button class="btn">Créer un quiz</button></NuxtLink>
+                <NuxtLink to="/create"><button class="btn">Créer un quiz</button></NuxtLink>
             </section>
 
             <section v-if="packs.length > 0">
