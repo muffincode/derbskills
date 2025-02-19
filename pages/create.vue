@@ -77,7 +77,6 @@ const onSubmit = async () => {
         pack: pack.value,
         n: n.value
     }
-    console.log(params)
     await navigateTo({ path: '/quiz', query: params })
 }
 </script>
