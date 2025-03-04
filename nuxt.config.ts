@@ -3,5 +3,6 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss', '@nuxt/content'],
-  css: ['~/assets/global.css']
+  css: ['~/assets/global.css'],
+  ssr: false
 })
