@@ -3,7 +3,7 @@
         <h1 class="mb-4">Contribuer</h1>
         <p class="mb-3">Si vous souhaitez <b>ajouter vos propres questions</b>, plusieurs options s'offrent à vous :</p>
 
-        <main class="grid grid-cols-[2fr_1fr] mt-6">
+        <main class="grid md:grid-cols-[2fr_1fr] mt-6 grid-cols-1">
             <div class="p-3">
                 <h2 class="mb-4">Méthode simple</h2>
                 <p>Créez un compte <a href="/admin" class="underline">ici</a> et dans la collection "Questions" créez et
@@ -78,6 +78,6 @@
     </section>
 </template>
 <script setup>
-const { data: packs } = await useAsyncData('packs', () => queryCollection('packs').all())
+// const { data: packs } = await useAsyncData('packs', () => queryCollection('packs').all())
 
 </script>
